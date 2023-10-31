@@ -13,8 +13,8 @@
 		041E478E265F6FA8001571AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041E478C265F6FA8001571AB /* Main.storyboard */; };
 		041E4791265F6FA8001571AB /* QRI_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 041E478F265F6FA8001571AB /* QRI_App.xcdatamodeld */; };
 		041E4793265F6FA9001571AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041E4792265F6FA9001571AB /* Assets.xcassets */; };
-		041E47A1265F6FAA001571AB /* QRI_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E47A0265F6FAA001571AB /* QRI_AppTests.swift */; };
-		041E47AC265F6FAA001571AB /* QRI_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E47AB265F6FAA001571AB /* QRI_AppUITests.swift */; };
+		041E47A1265F6FAA001571AB /* Test-Reports_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E47A0265F6FAA001571AB /* Test-Reports_AppTests.swift */; };
+		041E47AC265F6FAA001571AB /* Test-Reports_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E47AB265F6FAA001571AB /* Test-Reports_AppUITests.swift */; };
 		04220B4126660BE000A05432 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220B4026660BE000A05432 /* ForgotPasswordVC.swift */; };
 		04220B48266637C200A05432 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220B46266637C200A05432 /* Extensions.swift */; };
 		04220B49266637C200A05432 /* allStoreyBoards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220B47266637C200A05432 /* allStoreyBoards.swift */; };
@@ -109,10 +109,10 @@
 		041E4792265F6FA9001571AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041E4797265F6FA9001571AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041E479C265F6FAA001571AB /* Test-ReportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-ReportsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		041E47A0265F6FAA001571AB /* QRI_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRI_AppTests.swift; sourceTree = "<group>"; };
+		041E47A0265F6FAA001571AB /* Test-Reports_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test-Reports_AppTests.swift"; sourceTree = "<group>"; };
 		041E47A2265F6FAA001571AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041E47A7265F6FAA001571AB /* Test-ReportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-ReportsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		041E47AB265F6FAA001571AB /* QRI_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRI_AppUITests.swift; sourceTree = "<group>"; };
+		041E47AB265F6FAA001571AB /* Test-Reports_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test-Reports_AppUITests.swift"; sourceTree = "<group>"; };
 		041E47AD265F6FAA001571AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04220B362665FA2700A05432 /* helvetica-compressed-5871d14b6903a.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "helvetica-compressed-5871d14b6903a.otf"; sourceTree = "<group>"; };
 		04220B372665FA2700A05432 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Bold.ttf"; sourceTree = "<group>"; };
@@ -235,9 +235,9 @@
 		041E477A265F6FA8001571AB = {
 			isa = PBXGroup;
 			children = (
-				041E4785265F6FA8001571AB /* QRI App */,
-				041E479F265F6FAA001571AB /* QRI AppTests */,
-				041E47AA265F6FAA001571AB /* QRI AppUITests */,
+				041E4785265F6FA8001571AB /* Test-Reports */,
+				041E479F265F6FAA001571AB /* Test-Reports AppTests */,
+				041E47AA265F6FAA001571AB /* Test-Reports AppUITests */,
 				041E4784265F6FA8001571AB /* Products */,
 				A8B8105EE1B728271104F204 /* Pods */,
 				FB5C79BDAE43BA4567AFEDAA /* Frameworks */,
@@ -254,7 +254,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		041E4785265F6FA8001571AB /* QRI App */ = {
+		041E4785265F6FA8001571AB /* Test-Reports */ = {
 			isa = PBXGroup;
 			children = (
 				044F38DD2692CF0900A9835B /* Services */,
@@ -277,25 +277,25 @@
 				041E4797265F6FA9001571AB /* Info.plist */,
 				041E478F265F6FA8001571AB /* QRI_App.xcdatamodeld */,
 			);
-			path = "QRI App";
+			path = "Test-Reports";
 			sourceTree = "<group>";
 		};
-		041E479F265F6FAA001571AB /* QRI AppTests */ = {
+		041E479F265F6FAA001571AB /* Test-Reports AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				041E47A0265F6FAA001571AB /* QRI_AppTests.swift */,
+				041E47A0265F6FAA001571AB /* Test-Reports_AppTests.swift */,
 				041E47A2265F6FAA001571AB /* Info.plist */,
 			);
-			path = "QRI AppTests";
+			path = "Test-Reports AppTests";
 			sourceTree = "<group>";
 		};
-		041E47AA265F6FAA001571AB /* QRI AppUITests */ = {
+		041E47AA265F6FAA001571AB /* Test-Reports AppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				041E47AB265F6FAA001571AB /* QRI_AppUITests.swift */,
+				041E47AB265F6FAA001571AB /* Test-Reports_AppUITests.swift */,
 				041E47AD265F6FAA001571AB /* Info.plist */,
 			);
-			path = "QRI AppUITests";
+			path = "Test-Reports AppUITests";
 			sourceTree = "<group>";
 		};
 		041E47C5265F7228001571AB /* Controllers */ = {
@@ -814,7 +814,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041E47A1265F6FAA001571AB /* QRI_AppTests.swift in Sources */,
+				041E47A1265F6FAA001571AB /* Test-Reports_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,7 +822,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041E47AC265F6FAA001571AB /* QRI_AppUITests.swift in Sources */,
+				041E47AC265F6FAA001571AB /* Test-Reports_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
